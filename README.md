@@ -27,7 +27,6 @@ The Mentorship Matching Platform is a full-stack web application that allows use
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/mentorship-platform.git
 cd mentorship-platform
 
@@ -38,8 +37,7 @@ Create a new database (e.g., mentorship_db).
 
 Run the following SQL commands in your PostgreSQL client to create the required tables:
 
-sql
-Copy code
+
 -- Create Users Table
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
@@ -71,21 +69,19 @@ CREATE TABLE mentorship_requests (
 3. Setting Up the Backend
 Navigate to the backend directory:
 
-bash
-Copy code
+
 cd backend
 Install the backend dependencies:
 
-bash
-Copy code
 npm install
 Create a .env file in the backend folder (use a .env.example as a guide):
 
-env
-Copy code
+.env file content:
 PORT=5000
 DATABASE_URL=postgres://username:password@localhost:5432/mentorship_db
 JWT_SECRET=your_secure_jwt_secret
+
+
 Start the backend server:
 
 npm start
@@ -99,7 +95,6 @@ cd ../frontend
 Open any HTML file (e.g., index.html, login.html, register.html) in your browser, or serve the folder using a simple local server (for example, the Live Server extension in VS Code).
 
 Ensure that in your frontend/scripts/app.js file, the API base URL is set correctly:
-
 
 const API_BASE = 'http://localhost:5000/api';
 Test the application by signing up, logging in, creating a profile, and exploring discovery/mentorship features.
