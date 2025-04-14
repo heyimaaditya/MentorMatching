@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Setup - Mentorship Platform</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Profile Setup</h2>
+    <form id="profileForm">
+      <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="mentor">mentor</option>
+        <option value="mentee">mentee</option>
+      </select>
+      <input type="text" id="skills" placeholder="Skills (comma separated)">
+      <input type="text" id="interests" placeholder="Interests (comma separated)">
+      <textarea id="bio" placeholder="Short Bio"></textarea>
+      
+      <button class="create-profile-btn">Create Profile</button>
+      <button class="delete-profile-btn">Delete Profile</button>
+      
+    </form>
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

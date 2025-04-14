@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  h1, h2, h3 {
+    margin-bottom: 1rem;
+    color: #2b6777;
+  }
+  
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container textarea,
+  .form-container select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+  }
+  
+
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+ 
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0.25rem;
+  }
+  
+  
+  button:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .create-profile-btn {
+    background-color: #2b6777;
+    color: #fff;
+  }
+  
+  .create-profile-btn:hover {
+    background-color: #245a65;
+  }
+  
+
+  .delete-profile-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .delete-profile-btn:hover {
+    background-color: #e53935;
+  }
+  
+  
+  .special-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+ 
+  .profile-card,
+  .request-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-card:hover,
+  .request-card:hover {
+    transform: scale(1.02);
+  }
+  
+ 
+  .profile-card p strong {
+    color: #2b6777;
+  }
+  
+  
+  .request-card button,
+  .profile-card button {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+  
+  
+  .accept-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .accept-btn:hover {
+    background-color: #43a047;
+  }
+  
+  .decline-btn {
+    background-color: #e91e63;
+    color: #fff;
+  }
+  
+  .decline-btn:hover {
+    background-color: #d81b60;
+  }
+  
+ 
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  .container,
+  .form-container {
+    animation: fadeInUp 0.5s ease forwards;
+  }
+  
+
+  a {
+    color: #2b6777;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .container, .form-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  
