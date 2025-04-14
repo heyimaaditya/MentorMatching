@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://mentorship-backend-g4sf.onrender.com/';
 
 // Helper function for API requests.
 async function apiRequest(endpoint, method, data = null, token = null) {
