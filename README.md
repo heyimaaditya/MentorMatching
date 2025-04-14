@@ -27,8 +27,8 @@ The Mentorship Matching Platform is a full-stack web application that allows use
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/mentorship-platform.git
-cd mentorship-platform
+git clone repo
+cd folder
 
 2. Database Setup
 Ensure you have PostgreSQL installed.
