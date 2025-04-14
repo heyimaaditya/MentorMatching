@@ -26,7 +26,7 @@ The Mentorship Matching Platform is a full-stack web application that allows use
 ## Local Setup
 
 ### 1. Clone the Repository
-
+```
 git clone repo
 cd folder
 
