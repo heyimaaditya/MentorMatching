@@ -1,5 +1,5 @@
 const express = require('express');
-const { createProfile, updateProfile, getAllProfiles, getMyProfile } = require('../controllers/profileController');
+const { createProfile, updateProfile, getAllProfiles, getMyProfile,deleteProfile } = require('../controllers/profileController');
 const { authenticateToken } = require('../middlewares/authMiddleware');
 const { validateBody } = require('../middlewares/validationMiddleware');
 
